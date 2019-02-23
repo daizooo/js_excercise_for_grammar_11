@@ -9,7 +9,15 @@
 
 // ここでcatオブジェクトを作る
 
+const cat = {
+  name: "たま",
+  age: 5,
+  sex: "オス"
+};
+
 // ここでconsole.logを使ってcatオブジェクトの内容を出力する
+
+console.log(cat);
 
 
 /**
@@ -20,7 +28,11 @@
 
 // ここでownerを追加するコードを書く
 
+cat.owner = "だいぞう";
+
 // ここでconsole.logを使ってcatオブジェクトの内容を出力する
+
+console.log(cat);
 
 
 /**
@@ -31,7 +43,11 @@
 
 // ここでageを更新するコードを書く
 
+cat.age++;
+
 // ここでconsole.logを使ってcatオブジェクトの内容を出力する
+
+console.log(cat);
 
 
 /**
@@ -42,4 +58,8 @@
 
 // ここでownerを削除するコードを書く
 
+delete cat.owner;
+
 // ここでconsole.logを使ってcatオブジェクトの内容を出力する
+
+console.log(cat);
